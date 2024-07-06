@@ -1,0 +1,66 @@
+.iphone {
+    background: url("../../assets/iphone/iphone15-medium.jpg");
+    margin-top: 44px;
+}
+.ipad {
+    background: url("../../assets/ipad/ipadpro-medium.jpg");
+    margin-top: 10px;
+}
+
+.module {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: var(--module-background);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    cursor: pointer;
+}
+
+.module-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 54px;
+    color: #fff;
+}
+
+.head-title {
+    font-family: 'SF Pro Display Semi-Bold', Arial, Helvetica, sans-serif;
+    font-size: 54px;
+    letter-spacing: .01rem;
+}
+
+.head-subtitle {
+    font-size: 27px;
+    margin-top: 5px;
+}
+
+.callout {
+    font-size: 19px;
+    color: var(--callouttext-color);
+    margin-top: 14px;
+}
+
+/* Media Queries */
+
+@media (max-width: 735px) {
+    .iphone {background: url("../../assets/iphone/iphone15-small.jpg") center;}
+    .ipad {background: url("../../assets/ipad/ipadpro-small.jpg") center no-repeat;}
+
+    .module {height: 500px;}
+    .head-title { font-size: 34px;}
+    .head-subtitle {font-size: 19px;text-align: center;}
+    .button-info {font-size: 14px;}
+}
+
+@media (min-width: 2400px) {
+    .iphone {background: url("../../assets/iphone/iphone15-large.jpg") center no-repeat;}
+    .ipad {background: url("../../assets/ipad/ipadpro-large.jpg") center no-repeat;}
+
+    .head-title { font-size: 74px;}
+    .head-subtitle {font-size: 39px;text-align: center; margin-top: 20px;}
+    .callout{font-size: 34px;}
+    .button-info {font-size: 20px; padding: 13px 21px; margin-top: 30px;}
+}

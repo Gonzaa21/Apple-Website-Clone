@@ -1,0 +1,100 @@
+/* Typography and Global Properties */
+
+@font-face {
+    font-family:'SF Pro Display Regular';
+	font-style:normal;
+    font-weight:400;
+    src: url("../../wss/SF-Pro-Display-Regular.ttf");
+}
+
+@font-face {
+    font-family:'SF Pro Display Semi-Bold';
+	font-style:normal;
+    font-weight:600;
+    src: url("../../wss/SF-Pro-Display-Semibold.ttf");
+}
+
+@font-face {
+    font-family:'SF Pro Display Bold';
+	font-style:normal;
+    font-weight:700;
+    src: url("../../wss/SF-Pro-Display-Bold.ttf");
+}
+
+@font-face {
+    font-family:'SF Pro Text';
+	font-style:normal;
+    font-weight:400;
+    src: url("../../wss/SF-Pro-Text-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html {
+    font-family: 'SF Pro Display Regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    user-select: none;
+}
+
+:root {
+    --globalnav-color: #ffffffcc;
+    --module-background: #000;
+    --infobutton-background: #0071e3;
+    --infobutton-background-hover: #0077ED;
+    --infobutton-background-active: #006EDB;
+    --callouttext-color: #86868b;
+    --footertext-color: rgba(0, 0, 0, 0.575);
+}
+
+li {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    font-family: 'SF Pro Text', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+img {
+    pointer-events: none;
+}
+
+h3 {
+    font-family: 'SF Pro Display Bold',Arial, Helvetica, sans-serif;
+}
+
+
+/* Button Module */
+
+.button-info {
+    color: #fff;
+    background-color: var(--infobutton-background);
+    padding: 11px 21px;
+    border-radius: 30rem;
+    margin-top: 18px;
+}
+
+.button-info:hover {
+    background-color: var(--infobutton-background-hover);
+}
+
+.button-info:active {
+    background-color: var(--infobutton-background-active);
+}
+
+/* Special Properties */
+
+.white {color: #fff;}
+.black {color: #000;}
+
+.bg-black, .bg-black:active{background-color: #000;}
+.bg-black:hover {background-color: #000000d2;}
+
+.width {font-size: 14px; padding: 9px 15px;}
+.hide {display: none;}

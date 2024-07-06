@@ -1,0 +1,74 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 12px;
+    margin: 10px 12px;
+    justify-content: space-between;
+}
+
+.grid-container img {
+    margin: 47px auto 0;
+}
+
+.title-content {
+    margin: 42px auto 0;
+    font-size: 35px;
+    letter-spacing: .1rem;
+}
+
+.subtitle-content {
+    font-size: 19px;
+    margin: 9px auto 0;
+    text-align: center;
+}
+
+.callout-content {
+    font-size: 18px;
+    margin-top: 9px;
+    color: var(--callouttext-color);
+}
+
+.appleWatchSeries {background: url("../../assets/Panel Images/applewatch_series/applewatchseries-medium.jpg") no-repeat center;}
+.ipadAir {background: url("../../assets/Panel Images/ipadair/ipadair-medium.jpg") no-repeat center;}
+.macBookAir {background: url("../../assets/Panel Images/macbookair/mcbookair-medium.jpg") no-repeat center;}
+.appleWatchUltra {background: url("../../assets/Panel Images/applewatch_ultra/applewatchultra-medium.jpg") no-repeat center;}
+.iphone15 {background: url("../../assets/Panel Images/iphone15/iphone15-medium.jpg") no-repeat center;}
+.airPodsPro {background: url("../../assets/Panel Images/airpods/airpods-medium.jpg") no-repeat center;}
+
+.appleWatchSeries, .ipadAir, .macBookAir, .appleWatchUltra, .iphone15, .airPodsPro {
+    background-size: cover;
+    width: 48vw;
+    height: 50vh;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Media Queries */
+
+@media (max-width: 735px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .grid-container div {
+        width: auto;
+        height: 490px;
+    }
+}
+
+@media (min-width: 2400px) {
+    .grid-container {
+        justify-content: space-evenly;
+    }
+    
+    .appleWatchSeries {background: url("../../assets/Panel Images/applewatch_series/applewatchseries-large.jpg") no-repeat center; background-size: cover;}
+    .ipadAir {background: url("../../assets/Panel Images/ipadair/ipadair-large.jpg") no-repeat center; background-size: cover;}
+    .macBookAir {background: url("../../assets/Panel Images/macbookair/mcbookair-large.jpg") no-repeat center; background-size: cover;}
+    .appleWatchUltra {background: url("../../assets/Panel Images/applewatch_ultra/applewatchultra-large.jpg") no-repeat center; background-size: cover;}
+    .iphone15 {background: url("../../assets/Panel Images/iphone15/iphone15-large.jpg") no-repeat center; background-size: cover;}
+    .airPodsPro {background: url("../../assets/Panel Images/airpods/airpods-large.jpg") no-repeat center; background-size: cover;}
+}
