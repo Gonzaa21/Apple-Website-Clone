@@ -15,9 +15,6 @@ This project is a clone of Apple's website, created for the purpose of practicin
 3. Intuitive navigation.
 4. Accurate replica of the aesthetics and functionality of the Apple website.
 
-# DEMO
-Watch the <a href="">live demo</a>!
-
 # Contributions
 
 Contributions are welcome! If you have any improvements or new features you'd like to add, please create <a href="https://github.com/Gonzaa21/Apple-Website-Clone/pulls">pull requests</a>, or <a href="https://github.com/Gonzaa21/Apple-Website-Clone/issues">open issues</a> to contribute.
