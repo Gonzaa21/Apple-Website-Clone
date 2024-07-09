@@ -3,8 +3,7 @@
 <div style="display: flex; margin: auto;">
 
 <img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
-<img alt="VSC" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&
-logo=visual-studio-code&logoColor=white">
+<img alt="VSC" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">
 
 </div>
 
@@ -16,12 +15,9 @@ This project is a clone of Apple's website, created for the purpose of practicin
 3. Intuitive navigation.
 4. Accurate replica of the aesthetics and functionality of the Apple website.
 
-# DEMO
-Watch the <a href="">live demo</a>!
-
 # Contributions
 
-Contributions are welcome! If you have any improvements or new features you'd like to add, please create <a href="">pull requests</a>, or <a href="">open issues</a> to contribute.
+Contributions are welcome! If you have any improvements or new features you'd like to add, please create <a href="https://github.com/Gonzaa21/Apple-Website-Clone/pulls">pull requests</a>, or <a href="https://github.com/Gonzaa21/Apple-Website-Clone/issues">open issues</a> to contribute.
 
 # Technologies
 
@@ -46,9 +42,9 @@ Contributions are welcome! If you have any improvements or new features you'd li
    ```
 
 # Licence
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the <a href="https://github.com/Gonzaa21/Apple-Website-Clone/tree/main?tab=MIT-1-ov-file">LICENSE</a> file for more details.
 
 # Contact
 My Github Profile - [@Gonzaa21](https://github.com/Gonzaa21)
 
-Project Link: 
+Project Link: https://github.com/Gonzaa21/Apple-Website-Clone
