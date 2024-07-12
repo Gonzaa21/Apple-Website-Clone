@@ -1,9 +1,9 @@
 .iphone {
-    background: url("../../assets/iphone/iphone15-medium.jpg");
+    background: url("./assets/iphone/iphone15-medium.jpg");
     margin-top: 44px;
 }
 .ipad {
-    background: url("../../assets/ipad/ipadpro-medium.jpg");
+    background: url("./assets/ipad/ipadpro-medium.jpg");
     margin-top: 10px;
 }
 
@@ -46,8 +46,8 @@
 /* Media Queries */
 
 @media (max-width: 735px) {
-    .iphone {background: url("../../assets/iphone/iphone15-small.jpg") center;}
-    .ipad {background: url("../../assets/ipad/ipadpro-small.jpg") center no-repeat;}
+    .iphone {background: url("./assets/iphone/iphone15-small.jpg") center;}
+    .ipad {background: url("./assets/ipad/ipadpro-small.jpg") center no-repeat;}
 
     .module {height: 500px;}
     .head-title { font-size: 34px;}
@@ -56,8 +56,8 @@
 }
 
 @media (min-width: 2400px) {
-    .iphone {background: url("../../assets/iphone/iphone15-large.jpg") center no-repeat;}
-    .ipad {background: url("../../assets/ipad/ipadpro-large.jpg") center no-repeat;}
+    .iphone {background: url("./assets/iphone/iphone15-large.jpg") center no-repeat;}
+    .ipad {background: url("./assets/ipad/ipadpro-large.jpg") center no-repeat;}
 
     .head-title { font-size: 74px;}
     .head-subtitle {font-size: 39px;text-align: center; margin-top: 20px;}

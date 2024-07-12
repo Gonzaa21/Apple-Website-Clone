@@ -4,28 +4,28 @@
     font-family:'SF Pro Display Regular';
 	font-style:normal;
     font-weight:400;
-    src: url("../../wss/SF-Pro-Display-Regular.ttf");
+    src: url("./wss/SF-Pro-Display-Regular.ttf");
 }
 
 @font-face {
     font-family:'SF Pro Display Semi-Bold';
 	font-style:normal;
     font-weight:600;
-    src: url("../../wss/SF-Pro-Display-Semibold.ttf");
+    src: url("./wss/SF-Pro-Display-Semibold.ttf");
 }
 
 @font-face {
     font-family:'SF Pro Display Bold';
 	font-style:normal;
     font-weight:700;
-    src: url("../../wss/SF-Pro-Display-Bold.ttf");
+    src: url("./wss/SF-Pro-Display-Bold.ttf");
 }
 
 @font-face {
     font-family:'SF Pro Text';
 	font-style:normal;
     font-weight:400;
-    src: url("../../wss/SF-Pro-Text-Regular.ttf");
+    src: url("./wss/SF-Pro-Text-Regular.ttf");
 }
 
 * {
